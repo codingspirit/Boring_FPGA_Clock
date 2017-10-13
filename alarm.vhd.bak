@@ -1,0 +1,31 @@
+LIBRARY IEEE;
+USE ieee.std_logic_1164.all;
+USE ieee.std_logic_unsigned.all;
+ENTITY alarm IS
+PORT(fre2kin:IN std_logic;
+	  fre1kin:IN std_logic;
+		set,enable:IN std_logic;
+		hh,hl,mh,ml,sh,sl:IN integer RANGE 9 DOWNTO 0;
+		beep:OUT std_logic);
+END;
+ARCHITECTURE bing OF alarm IS
+SIGNAL flag:std_logic_vector(1 DOWNTO 0);
+BEGIN
+	al:PROCESS(hh,hl,mh,ml,sh,sl,set,enable)
+		VARIABLE sethh,sethl,setmh,setml:integer RANGE 9 DOWNTO 0;
+		BEGIN
+		END PROCESS al;
+	bs:PROCESS(mh,ml,sh,sl,enable)
+		BEGIN
+			IF enable='1' AND sl=3 AND sh=5 AND ml=9 AND mh=5 THEN
+				flag<="10";
+			ELSIF enable='1' sl=9 AND sh=5 AND ml=9 AND mh=5 THEN
+				flag<="01"
+			ELSIF enable='1' sl=0 AND sh=0 AND ml=0 AND mh=3 THEN
+				flag<="10";
+			ELSE flag<="00";
+			END IF;
+		END PROCESS bs;
+END;
+		
+		

@@ -1,0 +1,9 @@
+LIBRARY IEEE;
+USE ieee.std_logic_1164.all;
+USE ieee.std_logic_unsigned.all;
+ENTITY count IS
+ PORT(clk0:IN std_logic;
+		fre1k:OUT std_logic);
+END;
+ARCHITECTURE fre OF count IS
+ SIGNAL 

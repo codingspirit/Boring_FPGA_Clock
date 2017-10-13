@@ -1,0 +1,44 @@
+LIBRARY IEEE;
+USE ieee.std_logic_1164.all;
+USE ieee.std_logic_unsigned.all;
+ENTITY keyscan IS
+PORT(k1,k2,k3,k4,k5:IN std_logic;
+		out1:OUT integer RANGE 3 DOWNTO 0;
+		out2,ou3,out4,out5:OUT std_logic);--k1 0 time 1 date 
+END;
+ARCHITECTURE scan OF keyscan IS
+BEGIN
+	PROCESS(k1,k2,k3,k4,k5)
+	variable state1:integer RANGE 3 DOWNTO 0;
+		BEGIN
+			IF k1='0' THEN
+				WHILE k1='0' LOOP
+						k1<=k1;
+				END LOOP;
+				IF state1=3 THEN state1=0;
+				ELSE state1:=state1+1;
+				END IF;
+				out1<=state1;
+			END IF;
+			IF k2='0' THEN
+				WHILE k2='0' LOOP
+						k2<=k2;
+				END LOOP;
+			END IF;
+			IF k3='0' THEN
+				WHILE k3='0' LOOP
+						k3<=k3;
+				END LOOP;
+			END IF;
+			IF k4='0' THEN
+				WHILE k4='0' LOOP
+						k4<=k4;
+				END LOOP;
+			END IF;
+			IF k5='0' THEN
+				WHILE k5='0' LOOP
+						k5<=k5;
+				END LOOP;
+			END IF;
+		END PROCESS;
+END;

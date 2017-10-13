@@ -1,0 +1,15 @@
+LIBRARY IEEE;
+USE ieee.std_logic_1164.all;
+use ieee.std_logic_unsigned.all;
+ENTITY showmodel IS
+PORT (numin:IN integer RANGE 9 DOWNTO 0;
+		locin:IN integer RANGE 7 DOWNTO 0;
+		clk:IN std_logic;
+		duanout:OUT std_logic_vector(7 DOWNTO 0);
+		weiout:OUT std_logic_vector(7 DOWNTO 0));
+END;
+ARCHITECTURE show OF showmodel IS
+	SIGNAL duan:std_logic_vector(7 DOWNTO 0);
+	SIGNAL wei:std_logic_vector(7 DOWNTO 0);
+BEGIN
+	

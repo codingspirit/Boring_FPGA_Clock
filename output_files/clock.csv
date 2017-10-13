@@ -1,0 +1,47 @@
+# Copyright (C) 1991-2013 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+
+# Quartus II 64-Bit Version 13.0.0 Build 156 04/24/2013 SJ Full Version
+# File: C:\Users\ALEX.DON.SCOFIELD\Desktop\clock\output_files\clock.csv
+# Generated on: Thu Sep 10 20:23:49 2015
+
+# Note: The column header names should not be changed if you wish to import this .csv file into the Quartus II software.
+
+To,Direction,Location,I/O Bank,VREF Group,I/O Standard,Reserved,Current Strength,Differential Pair
+50M,Input,PIN_17,1,B1_N0,,,,
+beepout,Output,PIN_44,4,B4_N1,,,,
+duan[0],Output,PIN_133,2,B2_N1,,,,
+duan[1],Output,PIN_125,2,B2_N0,,,,
+duan[2],Output,PIN_134,2,B2_N1,,,,
+duan[3],Output,PIN_137,2,B2_N1,,,,
+duan[4],Output,PIN_135,2,B2_N1,,,,
+duan[5],Output,PIN_129,2,B2_N1,,,,
+duan[6],Output,PIN_122,2,B2_N0,,,,
+duan[7],Output,PIN_136,2,B2_N1,,,,
+key1,Input,PIN_64,4,B4_N0,,,,
+key2,Input,PIN_67,4,B4_N0,,,,
+key3,Input,PIN_70,4,B4_N0,,,,
+key4,Input,PIN_72,4,B4_N0,,,,
+key5,Input,PIN_74,3,B3_N1,,,,
+test1k,Output,PIN_144,2,B2_N1,,,,
+test1s,Output,PIN_142,2,B2_N1,,,,
+testk1,Output,,,,,,,
+wei[0],Output,PIN_115,2,B2_N0,,,,
+wei[1],Output,PIN_118,2,B2_N0,,,,
+wei[2],Output,PIN_119,2,B2_N0,,,,
+wei[3],Output,PIN_120,2,B2_N0,,,,
+wei[4],Output,PIN_121,2,B2_N0,,,,
+wei[5],Output,PIN_126,2,B2_N0,,,,
+wei[6],Output,PIN_132,2,B2_N1,,,,
+wei[7],Output,PIN_139,2,B2_N1,,,,

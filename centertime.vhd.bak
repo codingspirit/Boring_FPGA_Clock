@@ -1,0 +1,45 @@
+LIBRARY IEEE;
+USE ieee.std_logic_1164.all;
+USE ieee.std_logic_unsigned.all;
+ENTITY centertime IS
+ PORT(in1s,switch:IN std_logic;--switch0=hml 1=ymd
+		h1,l1,h2,l2,h3,l3:OUT integer RANGE 9 DOWNTO 0);
+END;
+ARCHITECTURE timeout OF centertime IS
+BEGIN
+ PROCESS(in1s,switch)
+--	VARIABLE yh:integer RANGE 9 DOWNTO 0;
+--	VARIABLE yl:integer RANGE 9 DOWNTO 0;
+--	VARIABLE mh:integer RANGE 9 DOWNTO 0;
+--	VARIABLE ml:integer RANGE 9 DOWNTO 0;
+--	VARIABLE dh:integer RANGE 9 DOWNTO 0;
+--	VARIABLE dl:integer RANGE 9 DOWNTO 0;
+	VARIABLE hh:integer RANGE 9 DOWNTO 0;
+	VARIABLE hl:integer RANGE 9 DOWNTO 0;
+	VARIABLE mh:integer RANGE 9 DOWNTO 0;
+	VARIABLE ml:integer RANGE 9 DOWNTO 0;
+	VARIABLE sh:integer RANGE 9 DOWNTO 0;
+	VARIABLE sl:integer RANGE 9 DOWNTO 0;
+ BEGIN
+	IF in1s 'EVENT AND in1s='1' THEN
+		IF sl=9 THEN sl:=0;
+			IF sh=9 THEN sh:=0;
+				IF ml=9 THEN ml:=0;
+					IF mh=9 THEN mh:=0;
+						IF hl=9 THEN hl:=0;
+							IF hh=9 THEN hh:=0;
+							ELSE hh:=hh+1;
+							END IF;
+						ELSE hl:=hl+1;
+						END IF;
+					ELSE mh:=mh+1;
+					END IF;
+				ELSE ml:=ml+1;
+				END IF;
+			ELSE sh:=sh+1;
+			END IF;
+		ELSE sl:=sl+1;
+		END IF;
+	END IF;
+	END PROCESS;
+END;

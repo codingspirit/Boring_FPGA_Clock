@@ -1,0 +1,269 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow Model Setup '50M'
+Slack : -39.879
+TNS   : -1039.606
+
+Type  : Slow Model Setup 'count:inst1|a'
+Slack : -9.474
+TNS   : -306.576
+
+Type  : Slow Model Setup 'count:inst1|c'
+Slack : -8.743
+TNS   : -373.537
+
+Type  : Slow Model Setup 'keyscan:inst3|out4'
+Slack : -5.385
+TNS   : -359.804
+
+Type  : Slow Model Setup 'music:inst5|clk10'
+Slack : -3.674
+TNS   : -25.859
+
+Type  : Slow Model Setup 'music:inst5|clk'
+Slack : -2.796
+TNS   : -59.881
+
+Type  : Slow Model Setup 'centertime:inst2|setstate1'
+Slack : -0.741
+TNS   : -6.274
+
+Type  : Slow Model Setup 'keyscan:inst3|a'
+Slack : -0.535
+TNS   : -8.438
+
+Type  : Slow Model Setup 'keyscan:inst3|out3'
+Slack : -0.518
+TNS   : -1.562
+
+Type  : Slow Model Hold '50M'
+Slack : -2.543
+TNS   : -15.201
+
+Type  : Slow Model Hold 'music:inst5|clk'
+Slack : -2.493
+TNS   : -2.493
+
+Type  : Slow Model Hold 'count:inst1|c'
+Slack : -0.836
+TNS   : -4.844
+
+Type  : Slow Model Hold 'centertime:inst2|setstate1'
+Slack : -0.670
+TNS   : -16.195
+
+Type  : Slow Model Hold 'count:inst1|a'
+Slack : -0.342
+TNS   : -0.913
+
+Type  : Slow Model Hold 'keyscan:inst3|out3'
+Slack : -0.111
+TNS   : -0.666
+
+Type  : Slow Model Hold 'keyscan:inst3|a'
+Slack : -0.089
+TNS   : -0.938
+
+Type  : Slow Model Hold 'keyscan:inst3|out4'
+Slack : 0.497
+TNS   : 0.000
+
+Type  : Slow Model Hold 'music:inst5|clk10'
+Slack : 0.499
+TNS   : 0.000
+
+Type  : Slow Model Recovery 'count:inst1|c'
+Slack : -4.175
+TNS   : -189.083
+
+Type  : Slow Model Recovery 'keyscan:inst3|a'
+Slack : -1.331
+TNS   : -2.150
+
+Type  : Slow Model Recovery 'count:inst1|a'
+Slack : 2.064
+TNS   : 0.000
+
+Type  : Slow Model Removal 'count:inst1|a'
+Slack : -1.830
+TNS   : -43.920
+
+Type  : Slow Model Removal 'count:inst1|c'
+Slack : 0.036
+TNS   : 0.000
+
+Type  : Slow Model Removal 'keyscan:inst3|a'
+Slack : 1.553
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width '50M'
+Slack : -1.941
+TNS   : -98.401
+
+Type  : Slow Model Minimum Pulse Width 'keyscan:inst3|out4'
+Slack : -0.742
+TNS   : -111.300
+
+Type  : Slow Model Minimum Pulse Width 'count:inst1|a'
+Slack : -0.742
+TNS   : -89.040
+
+Type  : Slow Model Minimum Pulse Width 'count:inst1|c'
+Slack : -0.742
+TNS   : -75.684
+
+Type  : Slow Model Minimum Pulse Width 'music:inst5|clk'
+Slack : -0.742
+TNS   : -46.004
+
+Type  : Slow Model Minimum Pulse Width 'music:inst5|clk10'
+Slack : -0.742
+TNS   : -16.324
+
+Type  : Slow Model Minimum Pulse Width 'keyscan:inst3|out3'
+Slack : -0.742
+TNS   : -8.904
+
+Type  : Slow Model Minimum Pulse Width 'keyscan:inst3|a'
+Slack : -0.742
+TNS   : -2.968
+
+Type  : Slow Model Minimum Pulse Width 'centertime:inst2|setstate1'
+Slack : 0.500
+TNS   : 0.000
+
+Type  : Fast Model Setup '50M'
+Slack : -11.678
+TNS   : -285.130
+
+Type  : Fast Model Setup 'count:inst1|a'
+Slack : -2.144
+TNS   : -60.829
+
+Type  : Fast Model Setup 'count:inst1|c'
+Slack : -2.008
+TNS   : -78.797
+
+Type  : Fast Model Setup 'keyscan:inst3|out4'
+Slack : -1.070
+TNS   : -63.434
+
+Type  : Fast Model Setup 'music:inst5|clk10'
+Slack : -0.449
+TNS   : -1.679
+
+Type  : Fast Model Setup 'music:inst5|clk'
+Slack : -0.276
+TNS   : -3.303
+
+Type  : Fast Model Setup 'centertime:inst2|setstate1'
+Slack : -0.209
+TNS   : -0.713
+
+Type  : Fast Model Setup 'keyscan:inst3|a'
+Slack : -0.021
+TNS   : -0.021
+
+Type  : Fast Model Setup 'keyscan:inst3|out3'
+Slack : 0.486
+TNS   : 0.000
+
+Type  : Fast Model Hold '50M'
+Slack : -1.352
+TNS   : -8.044
+
+Type  : Fast Model Hold 'music:inst5|clk'
+Slack : -1.189
+TNS   : -1.189
+
+Type  : Fast Model Hold 'count:inst1|c'
+Slack : -0.740
+TNS   : -16.264
+
+Type  : Fast Model Hold 'count:inst1|a'
+Slack : -0.611
+TNS   : -6.199
+
+Type  : Fast Model Hold 'keyscan:inst3|out4'
+Slack : -0.333
+TNS   : -1.907
+
+Type  : Fast Model Hold 'keyscan:inst3|out3'
+Slack : -0.106
+TNS   : -0.636
+
+Type  : Fast Model Hold 'music:inst5|clk10'
+Slack : 0.215
+TNS   : 0.000
+
+Type  : Fast Model Hold 'centertime:inst2|setstate1'
+Slack : 0.348
+TNS   : 0.000
+
+Type  : Fast Model Hold 'keyscan:inst3|a'
+Slack : 0.532
+TNS   : 0.000
+
+Type  : Fast Model Recovery 'count:inst1|c'
+Slack : -1.005
+TNS   : -43.106
+
+Type  : Fast Model Recovery 'keyscan:inst3|a'
+Slack : -0.284
+TNS   : -0.284
+
+Type  : Fast Model Recovery 'count:inst1|a'
+Slack : 0.952
+TNS   : 0.000
+
+Type  : Fast Model Removal 'count:inst1|a'
+Slack : -0.572
+TNS   : -13.728
+
+Type  : Fast Model Removal 'count:inst1|c'
+Slack : -0.374
+TNS   : -0.856
+
+Type  : Fast Model Removal 'keyscan:inst3|a'
+Slack : 0.657
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width '50M'
+Slack : -1.380
+TNS   : -66.380
+
+Type  : Fast Model Minimum Pulse Width 'keyscan:inst3|out4'
+Slack : -0.500
+TNS   : -75.000
+
+Type  : Fast Model Minimum Pulse Width 'count:inst1|a'
+Slack : -0.500
+TNS   : -60.000
+
+Type  : Fast Model Minimum Pulse Width 'count:inst1|c'
+Slack : -0.500
+TNS   : -51.000
+
+Type  : Fast Model Minimum Pulse Width 'music:inst5|clk'
+Slack : -0.500
+TNS   : -31.000
+
+Type  : Fast Model Minimum Pulse Width 'music:inst5|clk10'
+Slack : -0.500
+TNS   : -11.000
+
+Type  : Fast Model Minimum Pulse Width 'keyscan:inst3|out3'
+Slack : -0.500
+TNS   : -6.000
+
+Type  : Fast Model Minimum Pulse Width 'keyscan:inst3|a'
+Slack : -0.500
+TNS   : -2.000
+
+Type  : Fast Model Minimum Pulse Width 'centertime:inst2|setstate1'
+Slack : 0.500
+TNS   : 0.000
+
+------------------------------------------------------------
